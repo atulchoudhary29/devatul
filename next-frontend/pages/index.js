@@ -22,7 +22,7 @@ export default function Home({ blogs}) {
     title: "DevAtul",
     name: "Atul",
     fullname: "Atul Choudhary",
-    image: "./public/assets/img/atul.jpg",
+    image: "/atul.png",
     kaggleLink: "https://www.kaggle.com/atulchoudhary29",
     twitterLink: "https://twitter.com/AtulChoudhary08",
     linkdinLink: "https://www.linkedin.com/in/atulchoudhary2908/",
