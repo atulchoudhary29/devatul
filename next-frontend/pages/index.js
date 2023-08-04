@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import atulImage from './atul.png';
 import React, { useState, useEffect, useRef } from 'react';
 import { createClient } from "next-sanity";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -23,7 +22,7 @@ export default function Home({ blogs}) {
     title: "DevAtul",
     name: "Atul",
     fullname: "Atul Choudhary",
-    image: atulImage.default || atulImage,
+    image: "/assets/img/atul.png,
     kaggleLink: "https://www.kaggle.com/atulchoudhary29",
     twitterLink: "https://twitter.com/AtulChoudhary08",
     linkdinLink: "https://www.linkedin.com/in/atulchoudhary2908/",
