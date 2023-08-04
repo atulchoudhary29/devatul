@@ -221,7 +221,7 @@ export default function Home({ blogs}) {
             <h4 className="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
               I'm {profile.fullname}, a Machine Learning Engineer and Web Developer
             </h4>
-            <p className="pt-6 font-body leading-relaxed text-grey-20">
+            <p className="pt-6 font-body leading-relaxed text-grey-20 text-justify">
             Hi, I'm a <b>full-stack web developer</b> and <b>freelancer on Fiverr</b> with a focus on machine learning, deep learning, and data visualization. I maintain a <b>5-star rating</b> through my quality work. My skills span Python, Data Science, full stack web development using various technologies, and proficiency in Google Firebase, Next.js, Sanity.io, API integration. I hold a <b>Bachelor's degree in Civil Engineering from Thapar Institute of Engineering and Technology</b>. Known for my disciplined nature, adaptability, and strong communication skills, my portfolio includes predictive models and web applications. Currently, I'm <b>expanding into cybersecurity</b>, continually improving my problem-solving and debugging abilities.
             </p>
             <div className="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
