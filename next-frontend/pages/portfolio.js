@@ -21,6 +21,10 @@ const Portfolio = () => {
       imgSrc: '/assets/img/restu.png'
     },
     {
+      href: 'https://foodie-ebon.vercel.app/',
+      imgSrc: '/assets/img/Foodie_Website.gif'
+    },
+    {
       href: 'https://reportease.vercel.app/',
       imgSrc: '/assets/img/reportease.png'
     },
