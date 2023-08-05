@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import React, { useState, useEffect, useRef } from 'react';
 import { createClient } from "next-sanity";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faKaggle } from '@fortawesome/free-brands-svg-icons'
 import Portfolio from './portfolio';
 
 
@@ -23,7 +21,7 @@ export default function Home({ blogs}) {
     name: "Atul",
     fullname: "Atul Choudhary",
     image: "/assets/img/atul.png",
-    kaggleLink: "https://www.kaggle.com/atulchoudhary29",
+    githubLink: "https://github.com/atulchoudhary29",
     twitterLink: "https://twitter.com/AtulChoudhary08",
     linkdinLink: "https://www.linkedin.com/in/atulchoudhary2908/",
   }
@@ -192,8 +190,8 @@ export default function Home({ blogs}) {
                   </div>
                 </div>
                 <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
-                  <a href={profile.kaggleLink}>
-                    <FontAwesomeIcon icon={faKaggle} className="text-xl text-white hover:text-yellow" />
+                  <a href={profile.githubLink}>
+                    <i className="bx bxl-github text-2xl text-white hover:text-yellow"></i>
                   </a>
                   <a href={profile.twitterLink} className="pl-4">
                     <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
@@ -234,8 +232,8 @@ export default function Home({ blogs}) {
                 </div>
               </div>
               <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
-              <a href={profile.kaggleLink}>
-                    <FontAwesomeIcon icon={faKaggle} className="text-xl text-primary hover:text-yellow" />
+                  <a href={profile.githubLink}>
+                    <i className="bx bxl-github text-2xl text-white hover:text-yellow"></i>
                   </a>
                   <a href={profile.twitterLink} className="pl-4">
                     <i className="bx bxl-twitter text-2xl text-primary hover:text-yellow"></i>
@@ -717,8 +715,8 @@ export default function Home({ blogs}) {
           © Copyright 2023. All right reserved, DevAtul.
         </p>
         <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
-            <a href={profile.kaggleLink}>
-              <FontAwesomeIcon icon={faKaggle} className="text-xl text-white hover:text-yellow" />
+            <a href={profile.githubLink}>
+                <i className="bx bxl-github text-2xl text-white hover:text-yellow"></i>
             </a>
             <a href={profile.twitterLink} className="pl-4">
               <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
