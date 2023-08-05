@@ -190,8 +190,8 @@ export default function Home({ blogs}) {
                   </div>
                 </div>
                 <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
-                  <a href={profile.githubLink}>
-                    <i className="bx bxl-github text-2xl text-white hover:text-yellow"></i>
+                  <a href={profile.Link}>
+                    <i className="bx bxl- text-2xl text-white hover:text-yellow"></i>
                   </a>
                   <a href={profile.twitterLink} className="pl-4">
                     <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
@@ -233,7 +233,7 @@ export default function Home({ blogs}) {
               </div>
               <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
                   <a href={profile.githubLink}>
-                    <i className="bx bxl-github text-2xl text-white hover:text-yellow"></i>
+                    <i className="bx bxl-github text-2xl text-primary hover:text-yellow"></i>
                   </a>
                   <a href={profile.twitterLink} className="pl-4">
                     <i className="bx bxl-twitter text-2xl text-primary hover:text-yellow"></i>
