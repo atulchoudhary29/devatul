@@ -3,8 +3,6 @@ import Head from 'next/head'
 import { createClient } from "next-sanity";
 import PortableText from "react-portable-text"
 import NavBar from '../../components/NavBar'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faKaggle } from '@fortawesome/free-brands-svg-icons'
 
 const Post = ({ blog, author_new, prevBlog, nextBlog }) => {
   const client = createClient({
@@ -18,7 +16,7 @@ const Post = ({ blog, author_new, prevBlog, nextBlog }) => {
     name: "Atul",
     fullname: "Atul Choudhary",
     image: "/assets/img/atul.jpg",
-    kaggleLink: "https://www.kaggle.com/atulchoudhary29",
+    githubLink: "https://github.com/atulchoudhary29",
     twitterLink: "https://twitter.com/AtulChoudhary08",
     linkdinLink: "https://www.linkedin.com/in/atulchoudhary2908/",
   }
@@ -149,8 +147,8 @@ const Post = ({ blog, author_new, prevBlog, nextBlog }) => {
 
               </p>
               <div className="flex items-center justify-center pt-5 md:justify-start">
-                <a href={profile.kaggleLink}>
-                  <FontAwesomeIcon icon={faKaggle} className="text-xl text-black hover:text-rose-600" />
+                <a href={profile.githubLink}>
+                    <i className="bx bxl-github text-2xl text-white hover:text-yellow"></i>
                 </a>
                 <a href={profile.twitterLink} className="pl-4">
                   <i className="bx bxl-twitter text-2xl text-black hover:text-rose-600"></i>
@@ -171,8 +169,8 @@ const Post = ({ blog, author_new, prevBlog, nextBlog }) => {
           © Copyright 2023. All right reserved, DevAtul.
         </p>
         <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
-          <a href={profile.kaggleLink}>
-            <FontAwesomeIcon icon={faKaggle} className="text-xl text-white hover:text-yellow" />
+          <a href={profile.githubLink}>
+            <i className="bx bxl-github text-2xl text-white hover:text-yellow"></i>
           </a>
           <a href={profile.twitterLink} className="pl-4">
             <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
