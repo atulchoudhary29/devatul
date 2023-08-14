@@ -2,8 +2,7 @@ import Head from 'next/head'
 import React, { useState, useEffect, useRef } from 'react';
 import { createClient } from "next-sanity";
 import Portfolio from './portfolio';
-
-
+import { Analytics } from '@vercel/analytics/react';
 import Script from "next/script"
 import imageUrlBuilder from '@sanity/image-url'
 import Link from 'next/link'
@@ -726,7 +725,7 @@ export default function Home({ blogs}) {
             </a>
         </div>
       </div>
-    </div></></>
+    </div><Analytics /></></>
     
   )
 }
