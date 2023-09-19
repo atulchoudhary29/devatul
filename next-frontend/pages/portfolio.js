@@ -31,6 +31,10 @@ const Portfolio = () => {
     {
       href: '/',
       imgSrc: '/assets/img/portfolio.png'
+    },
+    {
+      href: 'https://python-automl.streamlit.app/',
+      imgSrc: '/assets/img/tutorial.png'
     }
   ];
 
