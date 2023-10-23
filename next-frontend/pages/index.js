@@ -542,7 +542,7 @@ export default function Home({ blogs}) {
                 </div>
                 <div className="pt-5 md:pl-5 md:pt-0">
                   <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
-                    40
+                    54
                   </h1>
                   <h4 className="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
                     Finished Projects
@@ -572,7 +572,7 @@ export default function Home({ blogs}) {
                 </div>
                 <div className="pt-5 md:pl-5 md:pt-0">
                   <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
-                    30
+                    40
                   </h1>
                   <h4 className="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
                     Happy Clients
@@ -691,7 +691,7 @@ export default function Home({ blogs}) {
                 </p>
               </div>
               <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-                Tonk, Rajasthan 304001
+                Rajasthan, India
               </p>
             </div>
           </div>
